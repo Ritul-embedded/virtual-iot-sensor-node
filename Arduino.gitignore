@@ -1,0 +1,17 @@
+# Arduino build files
+*.hex
+*.elf
+*.bin
+*.eep
+
+# Arduino libraries and cache
+libraries/
+.cache/
+build/
+*.d
+
+# MacOS system files
+.DS_Store
+
+# VS Code settings (optional)
+.vscode/
