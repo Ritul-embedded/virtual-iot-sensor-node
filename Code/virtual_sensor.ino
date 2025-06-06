@@ -14,5 +14,9 @@ void loop() {
   Serial.print(temperatureC);
   Serial.println(" °C");
 
-  delay(1000);
+  // Simulate wireless transmission
+  Serial.print("Sending data to server: ");
+  Serial.println(temperatureC);
+
+  delay(2000); // 2-second delay
 }
